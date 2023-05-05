@@ -10,6 +10,21 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
+      
+    - name: ⚙ Set Node.js 19.x
+      uses: actions/setup-node@v3
+      with:
+        node-version: 19.x
+    
+    - name: 🐈 yarn install
+      uses: Borales/actions-yarn@v4
+      with:
+        cmd: install
+      
+    - name: 👩‍🔧 yarn build
+      uses: Borales/actions-yarn@v4
+      with:
+        cmd: build
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
