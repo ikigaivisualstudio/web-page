@@ -1,0 +1,13 @@
+{
+  "name": "OpenTechne-web-page",
+  "version": "1.0.0",
+  "description": "OpeTechne web page",
+  "main": "",
+  "repository": "git@github.com:OpenTechne/OpenTechne-web-page.git",
+  "author": "OpenTechne",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "preact-cli": "3.4.5"
+  }
+}
