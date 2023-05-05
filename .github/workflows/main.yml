@@ -1,8 +1,5 @@
 on:
-  workflow_run:
-    workflows: ["CI"]
-    types:
-      - completed
+  push:
     branches:
       - main
 name: 🚀 Deploy website on push
