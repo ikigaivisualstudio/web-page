@@ -17,3 +17,4 @@ jobs:
         server: ftp.opentechne.com
         username: opentechne@opentechne.com
         password: ${{ secrets.ftp_password }}
+        local-dir: ./out
