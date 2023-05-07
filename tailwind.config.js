@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'cities': 'radial-gradient(var(--tw-gradient-stops))',
+        'city-desktop': "url('../../public/backgroundopentechne.jpg')",
       },
     },
   },
