@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export default function ScrollDown() {
   return (
-    <div className="absolute bottom-8 flex w-full justify-center">
+    <div className="absolute bottom-12 lg:bottom-8  flex w-full justify-center">
       <button
-        className=" animate-bounce"
+        className=" animate-bounce w-16 h-16 "
         onClick={() => {
           const screenHeight = window.screen.height;
           window.scrollTo({
@@ -18,8 +18,7 @@ export default function ScrollDown() {
         <Image
           src="./chevron-double-down.svg"
           alt="chevron-double-down"
-          width={100}
-          height={100}
+          fill
           priority
         />
       </button>
