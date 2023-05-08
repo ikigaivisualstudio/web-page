@@ -6,11 +6,11 @@ const techStack = ["Rust", "Solidity", "Next", "ChatGPT", "CSS", "HTML5", "Adobe
 
 export default function AboutUs() {
   return (
-    <div className="relative flex h-screen flex-row items-center justify-center gap-10 bg-about pt-5">
-      <div className="flex max-w-2xl flex-col items-center justify-center rounded-3xl border-2 border-white bg-white/30 p-10 shadow-md backdrop-blur-lg">
-        <h1 className="pb-3 text-3xl font-semibold text-white">ABOUT US</h1>
-        <h2 className=" pb-3 text-center text-4xl font-black tracking-tight text-white [text-shadow:_1px_1px_1px_rgb(0_0_0_/_20%)] sm:text-7xl">Cutting edge tech is our comfort zone</h2>
-        <p className="rounded-3xl border border-white bg-white/40 p-6 text-center text-lg font-medium leading-6 text-orange-800 shadow-md backdrop-blur-md">
+    <div className="relative flex h-screen flex-row  flex-wrap items-center justify-center gap-10 bg-about pt-5 lg:flex-nowrap">
+      <div className="m-3 flex max-w-2xl flex-col items-center justify-center rounded-3xl border-2 border-white bg-white/30 p-5 shadow-md backdrop-blur-lg  lg:p-10">
+        <h1 className="pb-3 text-2xl font-semibold text-white lg:text-3xl">ABOUT US</h1>
+        <h2 className="pb-3 text-center text-5xl font-black tracking-tight text-white [text-shadow:_1px_1px_1px_rgb(0_0_0_/_20%)] lg:text-7xl">Cutting edge tech is our comfort zone</h2>
+        <p className="rounded-3xl border border-white bg-white/40 p-3 text-center leading-6 text-orange-800 shadow-md backdrop-blur-md lg:p-6 lg:text-lg lg:font-medium">
           At OpenTechne, we're passionate about harnessing the power of web3 open source development to drive innovation and collaboration across industries. We believe in the transformative potential
           of technology to create new opportunities, challenge conventional wisdom, and build a more transparent and equitable future. With a relentless focus on delivering cutting-edge, tech-driven
           solutions, we're proud to be helping to shape the future of the web and beyond.
