@@ -9,7 +9,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'city-desktop': "url('../../public/backgroundopentechne.jpg')",
+        'home': "url('../../public/backgroundopentechne.jpg')",
+        'about': "url('../../public/backgroundabout.jpg')",
+        'contact': "url('../../public/backgroundcontact.jpg')",
       },
     },
   },

@@ -1,26 +1,21 @@
 "use client";
-
 import Image from "next/image";
 
-export default function ScrollDown() {
+export default function ScrollDown(props) {
   return (
-    <div className="absolute bottom-12 lg:bottom-8  flex w-full justify-center">
+    <div className="absolute bottom-12 flex  w-full justify-center lg:bottom-8">
       <button
-        className=" animate-bounce w-16 h-16 "
+        className="relative h-16 w-16 animate-bounce "
         onClick={() => {
           const screenHeight = window.screen.height;
+          console.log(screenHeight)
           window.scrollTo({
-            top: screenHeight,
+            top: screenHeight * props.page,
             behavior: "smooth",
           });
         }}
       >
-        <Image
-          src="./chevron-double-down.svg"
-          alt="chevron-double-down"
-          fill
-          priority
-        />
+        <Image src="./chevron-double-down.svg" alt="chevron-double-down" fill priority />
       </button>
     </div>
   );
