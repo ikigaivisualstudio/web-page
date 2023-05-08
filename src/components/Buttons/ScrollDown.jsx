@@ -7,10 +7,8 @@ export default function ScrollDown(props) {
       <button
         className="relative h-16 w-16 animate-bounce "
         onClick={() => {
-          const screenHeight = window.screen.height;
-          console.log(screenHeight)
           window.scrollTo({
-            top: screenHeight * props.page,
+            top: window.innerHeight * props.page,
             behavior: "smooth",
           });
         }}
