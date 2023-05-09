@@ -13,7 +13,7 @@ export default function ContactUs() {
         </div>
         <div className="flex flex-col items-center justify-center">
           <span className=" text-orange-800">address</span>
-          <span className=" text-medium font-semibold text-white lg:text-xl">500 4TH ST NW STE 102 PMB 1643</span>
+          <span className=" text-medium font-semibold text-white lg:text-xl">500 4TH ST NW STE 102 </span>
           <span className=" text-medium font-semibold text-white lg:text-xl">ALBUQUERQUE NM 87102</span>
         </div>
         <div className="flex flex-col items-center justify-center">
