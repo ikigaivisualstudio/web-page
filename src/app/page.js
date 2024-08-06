@@ -1,6 +1,7 @@
 import AboutUs from "@/components/Sections/AboutUs";
 import ContactUs from "@/components/Sections/ContactUs";
 import Text from "@/components/Sections/Text";
+import OurServices from "@/components/Sections/OurServices"
 import Image from "next/image";
 import './globals.css'
 
@@ -30,6 +31,7 @@ export default function Home() {
        </div>
       </div>
       <Text/>
+      <OurServices />
       <AboutUs />
       <ContactUs />
     </main>
