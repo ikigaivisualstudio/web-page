@@ -1,5 +1,4 @@
 "use client";
-import ScrollDown from "@/components/Buttons/ScrollDown";
 import Image from "next/image";
 
 const techStack = [
@@ -21,17 +20,8 @@ export default function AboutUs() {
         <h1 className="pb-3 text-2xl font-semibold text-white lg:text-3xl">
           ABOUT US
         </h1>
-        <h2 className="pb-3 text-center text-5xl font-black tracking-tight text-white [text-shadow:_1px_1px_1px_rgb(0_0_0_/_20%)] lg:text-7xl">
-          Cutting edge tech is our comfort zone
-        </h2>
         <p className="rounded-3xl border border-white bg-white/40 p-3 text-center leading-6 text-orange-800 shadow-md backdrop-blur-md lg:p-6 lg:text-lg lg:font-medium">
-          At OpenTechne, we're passionate about harnessing the power of web3
-          open source development to drive innovation and collaboration across
-          industries. We believe in the transformative potential of technology
-          to create new opportunities, challenge conventional wisdom, and build
-          a more transparent and equitable future. With a relentless focus on
-          delivering cutting-edge, tech-driven solutions, we're proud to be
-          helping to shape the future of the web and beyond.
+        At Ikigai Visual Studio, we believe that a strong, cohesive brand is essential for standing out in today's competitive market. With years of experience in brand design, we specialize in creating visually stunning and strategically sound brand identities that resonate with your target audience.
         </p>
       </div>
       <div className="flex max-w-2xl flex-col items-center justify-center rounded-3xl border-2 border-white bg-white/30 p-8 shadow-md backdrop-blur-lg">
@@ -60,7 +50,6 @@ export default function AboutUs() {
           })}
         </div>
       </div>
-      <ScrollDown page={2} />
     </div>
   );
 }

@@ -18,7 +18,50 @@
   scrollbar-width: none;
 }
 
+@font-face {
+  font-family: 'Palmore_Regular';
+  src: url('/fonts/Palmore_Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Palmore_Bold';
+  src: url('/fonts/Palmore_Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Palmore_Light';
+  src: url('/fonts/Palmore_Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Palmore_Semibold';
+  src: url('/fonts/Palmore_Semibold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.palmore-reg {
+  font-family: 'Palmore_Regular'
+}
+
+.palmore-bold {
+font-family: 'Palmore_Bold';
+}
+
+.palmore-semi {
+  font-family: 'Palmore_Semibold';
+}
+
+.palmore-light {
+  font-family: 'Palmore_light';
+}
 /* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -30,11 +73,11 @@
 body {
 
   
-  /* color: rgb(var(--foreground-rgb));
+  color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb)); */
+    rgb(var(--background-start-rgb));
 }
