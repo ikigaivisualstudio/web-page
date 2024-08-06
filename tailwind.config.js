@@ -9,10 +9,16 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'home': "url('../../public/backgroundopentechne.jpg')",
+        'home': "url('../../public/rebranding/image_01.jpg')",
         'about': "url('../../public/backgroundabout.jpg')",
         'contact': "url('../../public/backgroundcontact.jpg')",
       },
+      colors: {
+        'green' : '#aab28b',
+        'dark-green' : '#494c3f',
+        'light' : '#fff8e9',
+        'dark' : '#191919'
+      }
     },
   },
   plugins: [],

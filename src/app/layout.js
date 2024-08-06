@@ -1,10 +1,10 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Raleway } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'], weight: ['200', '300', '400', '500', '600', '700', '800', '900']})
+const inter = Raleway ({ subsets: ['latin'], weight: [ '100', '300', '400', '500', '700', '900']})
 
 export const metadata = {
-  title: 'OpenTechne',
+  title: 'Ikigai Visual Studio',
   description: 'Where technology becomes art',
 }
 

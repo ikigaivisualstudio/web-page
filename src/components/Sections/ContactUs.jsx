@@ -1,5 +1,4 @@
 "use client";
-import ScrollDown from "@/components/Buttons/ScrollDown";
 import Image from "next/image";
 
 export default function ContactUs() {
@@ -25,8 +24,6 @@ export default function ContactUs() {
           <span className=" text-medium font-semibold text-white lg:text-xl">+12088030505</span>
         </div>
       </div>
-
-      <ScrollDown page={0} />
     </div>
   );
 }
