@@ -1,6 +1,6 @@
 import ContactUs from "@/components/Sections/ContactUs";
 import Text from "@/components/Sections/Text";
-import About from "@/components/Sections/about";
+import About from "@/components/Sections/About";
 
 import OurServices from "@/components/Sections/OurServices"
 import Image from "next/image";
