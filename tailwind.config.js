@@ -11,7 +11,7 @@ module.exports = {
       backgroundImage: {
         'home': "url('../../public/rebranding/image_01.jpg')",
         'about': "url('../../public/backgroundabout.jpg')",
-        'contact': "url('../../public/backgroundcontact.jpg')",
+        'second-section': "url('../../public/rebranding/Logomark.svg')",
       },
       colors: {
         'green' : '#aab28b',
