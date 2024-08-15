@@ -5,23 +5,20 @@ const Service = [
   {
     "title" : "Graphic Design",
     "description" : "Our team of creative designers works closely with you to understand your vision and bring it to life through innovative and compelling designs.",
-    "imgSrc" : "/rebranding/Drawing_01.png",
-    "imgAlt" : "drawing one",
-    "txtColor" : "#494c3f",
+    "imgSrc" : "/services/graphic_design.png",
+    "imgAlt" : "drawing one"
   },
   {
     "title" : "Brand Design",
     "description" : "Our approach is holistic, ensuring that every element from typography to color schemes aligns perfectly with your brand's personality and values.",
-    "imgSrc" : "/rebranding/Drawing_02.png",
-    "imgAlt" : "drawing one",
-    "txtColor" : "#312a91",
+    "imgSrc" : "/services/brand_design.png",
+    "imgAlt" : "drawing one"
   },
   {
     "title" : "Web Design",
     "description" : "Our goal is to deliver a seamless digital experience that reflects your brand and engages your visitors, user-friendly and optimized for performance.",
-    "imgSrc" : "/rebranding/Drawing_03.png",
-    "imgAlt" : "drawing one",
-    "txtColor" : "#a73d16",
+    "imgSrc" : "/services/web_design.png",
+    "imgAlt" : "drawing one"
   }
 ]
 
@@ -35,7 +32,7 @@ export default function OurServices() {
             return (
             <div key={index} className="flex flex-col justify-center items-center text-center p-10" >
                 <Image src={service.imgSrc} alt={service.imgAlt} width={300} height={500}/>
-                <div className="flex flex-col gap-2" style={{color: service.txtColor}}>
+                <div className="flex flex-col gap-2 text-dark-green">
                  <span className="palmore-light text-4xl">{service.title}</span>
                   <p className="text-sm">{service.description}</p>
                 </div>
