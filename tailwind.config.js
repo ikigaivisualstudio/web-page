@@ -11,7 +11,7 @@ module.exports = {
       backgroundImage: {
         'home': "url('../../public/rebranding/image_01.jpg')",
         'about': "url('../../public/backgroundabout.jpg')",
-        'services': "url('../../public/rebranding/Bg.jpg')",
+        'services': "url('../../public/rebranding/Bg_02.jpg')",
       },
       colors: {
         'green' : '#aab28b',
